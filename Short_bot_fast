@@ -38,7 +38,7 @@ MAX_NEAR_SIGNALS_IN_REPORT = 5
 
 # ================== API CACHE ==================
 api_cache: Dict[str, Tuple[Any, float]] = {}
-CACHE_TTL = 150
+CACHE_TTL = 420
 
 def get_cached(func, symbol: str) -> Any:
     key = f"{func.__name__}_{symbol}"
