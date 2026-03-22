@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger("manipulator_pro_fast_v1")
 
 # ================== НАСТРОЙКИ FAST ==================
-BOT_TOKEN = "8749616718:AAFaXDA9zffl4Cjf2Gh64hU7TbAZm8foPGM"
-CHAT_ID = "-4778661545"
+BOT_TOKEN = "8556097757:AAHMZ0UtrdUnQsy5Rwv8Z0mkV9jSTbEOZCA"
+CHAT_ID = "-1003711874259"
 BASE_URL = "https://api.bybit.com"
 
 MAX_SYMBOLS = 320
